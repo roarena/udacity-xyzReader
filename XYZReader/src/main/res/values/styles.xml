@@ -25,17 +25,4 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Bacon.Detail.Title">
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
-    </style>
-
-    <style name="Theme.Bacon.Detail.Subtitle">
-        <item name="android:textColor">@android:color/white</item>
-    </style>
-
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
-
 </resources>

@@ -1,16 +1,15 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_content"
+    android:id="@+id/coordinatoLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/theme_primary">
-
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/theme_primary_dark"
-        android:elevation="4dp">
+        android:elevation="@dimen/app_bar_elevation">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -22,12 +21,10 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="@dimen/title_margin"
+            android:layout_marginLeft="@dimen/title_margin"
             android:contentDescription="@string/app_name"
             android:src="@drawable/logo" />
-
-
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.widget.SwipeRefreshLayout
